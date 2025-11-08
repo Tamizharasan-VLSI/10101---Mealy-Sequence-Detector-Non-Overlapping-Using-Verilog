@@ -1,5 +1,5 @@
 
-module fsm_moore_10101(
+module fsm_mealy_10101(
   input clk, rst, data_in,
   output reg data_out
 );
@@ -62,4 +62,5 @@ module fsm_moore_10101(
     endcase
   end
 endmodule
+
 
