@@ -2,7 +2,7 @@ module tb;
 reg clk,rst,data_in;
 wire data_out;
 integer i;
-fsm_moore_10101 dut (clk,rst,data_in,data_out);
+fsm_mealy_10101 dut (clk,rst,data_in,data_out);
 
 always #5 clk = ~clk;
 
@@ -64,6 +64,7 @@ ran ();
 end
 
 endmodule
+
 
 
 
